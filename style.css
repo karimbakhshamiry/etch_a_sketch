@@ -1,0 +1,51 @@
+h1 {
+  text-align: center;
+  margin: 0;
+}
+.container {
+  width: 700px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.board {
+  border: 2px solid black;
+  width: 300px;
+  height: 300px;
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+button {
+  padding: 20px 50px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.squares {
+  border: 1px solid black;
+}
+
+.setting {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
